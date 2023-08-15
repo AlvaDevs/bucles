@@ -15,10 +15,27 @@ int main() {
 //    solo si ya se conocen
 //    las iteraciones
     
-    int n = 4;
-    for (int i = 0; i < n; i++) {
+    int n = 4, i;
+    cout << "Ciclo for: " << endl;
+    for (i = 0; i < n; i++) {
         cout << "El valor de i es: " << i << endl;
     }
+    
+    i = 0;
+    cout << endl;
+    cout << "Ciclo while: " << endl;
+    while (i < n) {
+        cout << "El valor de i es: " << i << endl;
+        i++;
+    }
+    
+    i = 0;
+    cout << endl;
+    cout << "Ciclo do-while: " << endl;
+    do {
+        cout << "El valor de i es: " << i << endl;
+        i++;
+    } while (i < n);
     
     return 0;
 }
